@@ -43,7 +43,7 @@ struct LottieView: UIViewRepresentable {
     }
     
     typealias UIViewType = UIView
-    
+
     
     struct LottieView_Previews: PreviewProvider {
         static var previews: some View {
