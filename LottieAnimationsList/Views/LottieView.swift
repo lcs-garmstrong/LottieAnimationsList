@@ -47,7 +47,9 @@ struct LottieView: UIViewRepresentable {
     
     struct LottieView_Previews: PreviewProvider {
         static var previews: some View {
-            LottieView(animationNamed: "782-check-mark-success")
+            NavigationView{
+                LottieView(animationNamed: "782-check-mark-success")
+            }
         }
     }
 }

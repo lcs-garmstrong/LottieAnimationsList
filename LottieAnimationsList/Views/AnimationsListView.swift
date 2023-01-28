@@ -8,13 +8,24 @@
 import SwiftUI
 
 struct AnimationsListView: View {
+    
+    // MARK: Computed properties
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List(favourites) { favourites in
+            
+            NavigationLink(destination: { LottieView(animationNamed: favourites.fileName)
+            }, label: {
+                Text(favourites.description)
+            })
+        }
+        .navigationTitle("Animations")
     }
 }
 
 struct AnimationsListView_Previews: PreviewProvider {
     static var previews: some View {
-        AnimationsListView()
+        NavigationView {
+            AnimationsListView()
+        }
     }
 }
