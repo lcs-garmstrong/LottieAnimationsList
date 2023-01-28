@@ -10,6 +10,7 @@
 		97CA66A5298577B9000AD6FA /* 70673-olympics-2021-golf-individual-and-group.json in Resources */ = {isa = PBXBuildFile; fileRef = 97CA66A4298577B9000AD6FA /* 70673-olympics-2021-golf-individual-and-group.json */; };
 		97CA66A72985780C000AD6FA /* 134698-weight-lifting.json in Resources */ = {isa = PBXBuildFile; fileRef = 97CA66A62985780C000AD6FA /* 134698-weight-lifting.json */; };
 		97CA66A929857837000AD6FA /* 11272-party-popper.json in Resources */ = {isa = PBXBuildFile; fileRef = 97CA66A829857837000AD6FA /* 11272-party-popper.json */; };
+		97CA66AB29857887000AD6FA /* FavouriteAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CA66AA29857887000AD6FA /* FavouriteAnimation.swift */; };
 		97D8516C2985724300B3BDC0 /* LottieAnimationsListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D8516B2985724300B3BDC0 /* LottieAnimationsListApp.swift */; };
 		97D851702985724E00B3BDC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97D8516F2985724E00B3BDC0 /* Assets.xcassets */; };
 		97D851732985724E00B3BDC0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97D851722985724E00B3BDC0 /* Preview Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		97CA66A4298577B9000AD6FA /* 70673-olympics-2021-golf-individual-and-group.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "70673-olympics-2021-golf-individual-and-group.json"; sourceTree = "<group>"; };
 		97CA66A62985780C000AD6FA /* 134698-weight-lifting.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "134698-weight-lifting.json"; sourceTree = "<group>"; };
 		97CA66A829857837000AD6FA /* 11272-party-popper.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "11272-party-popper.json"; sourceTree = "<group>"; };
+		97CA66AA29857887000AD6FA /* FavouriteAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteAnimation.swift; sourceTree = "<group>"; };
 		97D851682985724300B3BDC0 /* LottieAnimationsList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottieAnimationsList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97D8516B2985724300B3BDC0 /* LottieAnimationsListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimationsListApp.swift; sourceTree = "<group>"; };
 		97D8516F2985724E00B3BDC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		97D8517A298572AE00B3BDC0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				97CA66AA29857887000AD6FA /* FavouriteAnimation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97CA66AB29857887000AD6FA /* FavouriteAnimation.swift in Sources */,
 				97D8516C2985724300B3BDC0 /* LottieAnimationsListApp.swift in Sources */,
 				97D8517C298572E400B3BDC0 /* AnimationsListView.swift in Sources */,
 				97D851812985759100B3BDC0 /* LottieView.swift in Sources */,
